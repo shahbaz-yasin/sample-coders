@@ -85,7 +85,7 @@ export default function Footer() {
           {/* Right Column - Can be used for newsletter or other content */}
           <div className="flex items-center justify-center">
             <div className="max-w-sm w-full">
-              <h3 className={`text-xl font-semibold mb-6 ${
+              <h3 className={`text-xl text-center font-semibold mb-6 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
                 Ready to get started?
