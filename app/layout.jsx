@@ -2,6 +2,7 @@ import './globals.css'
 import { ThemeProvider as MUIThemeProvider } from './providers/ThemeProvider';
 import { ThemeProvider as ThemeContextProvider } from '../lib/context/ThemeContext';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 export default function RootLayout({ children }) {
   return (
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
           <MUIThemeProvider>
             <Header />
             {children}
+            <Footer />
           </MUIThemeProvider>
         </ThemeContextProvider>
       </body>

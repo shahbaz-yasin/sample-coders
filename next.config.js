@@ -9,7 +9,11 @@ const nextConfig = {
   // Vercel specific optimizations
   poweredByHeader: false,
   generateEtags: true,
-  compress: true
+  compress: true,
+  // Experimental features
+  experimental: {
+    appDir: true
+  }
 }
 
 module.exports = nextConfig 

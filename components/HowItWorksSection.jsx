@@ -29,7 +29,7 @@ export default function HowItWorksSection() {
             isDark ? 'bg-[#0F172A]' : 'bg-white'
           }`}>
             <img
-              src="/process.webp"
+              src="/process.jpg"
               alt="How The Elite Coders Works"
               className="w-full h-auto"
               width={1200}
