@@ -1,13 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  webpack: (config) => {
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      '@': '.',
-    }
-    return config
+  swcMinify: true,
+  images: {
+    domains: ['localhost'],
+    unoptimized: true
   },
+  // Vercel specific optimizations
+  poweredByHeader: false,
+  generateEtags: true,
+  compress: true
 }
 
 module.exports = nextConfig 

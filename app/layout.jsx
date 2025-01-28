@@ -23,5 +23,5 @@ export default function RootLayout({ children }) {
         </ThemeContextProvider>
       </body>
     </html>
-  )
+  );
 } 
